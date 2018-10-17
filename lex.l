@@ -1,15 +1,8 @@
 %{
-<<<<<<< HEAD
-	# define YY_DECL char **yylex()
-	int _numargs = 10;
-	char *_args[10];
-	int _argcount = 0;
-=======
 # define YY_DECL char **yylex()
 int _numargs = 10;
 char *_args[10];
 int _argcount = 0;
->>>>>>> 91bf46bb72b25eca50cb2caac941eae4032419e5
 %}
 
 WORD [a-zA-Z0-9\/\.-]+
