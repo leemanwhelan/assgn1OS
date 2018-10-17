@@ -1,7 +1,7 @@
 %{
 	# define YY_DECL char **yylex()
 	int _numargs = 10;
-	cahr *_args[10];
+	char *_args[10];
 	int _argcount = 0;
 %}
 
